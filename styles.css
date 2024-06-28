@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 20px;
 }
 
 .card-container {
@@ -42,13 +43,13 @@ body {
     margin-bottom: 16px;
 }
 
-.card-content p {
+.description {
     color: hsl(0, 0%, 50%);
     margin-top: 16px;
     margin-bottom: 24px;
     font-weight: 375;
     line-height: 1.4;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 .card-content h2:hover {
@@ -67,12 +68,18 @@ body {
     justify-content: center;
     align-items: center;
     font-size: .85rem;
+    font-weight: bold;
 }
 
 
 .card-author {
     display: flex;
     align-items: center;
+}
+
+.author {
+    font-size: 0.83rem;
+    font-weight: bold;
 }
 
 .author-img {
