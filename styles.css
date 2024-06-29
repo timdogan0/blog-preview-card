@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20px;
 }
 
@@ -22,7 +22,7 @@ body {
     background-color: white;
     font-family: 'Figtree';
     width: 100%;
-    max-width: 384px;
+    max-width: 24rem;
     padding: 24px;
     border-radius: 20px;
     border: 1px solid black;
@@ -30,8 +30,6 @@ body {
 }
 
 .card-image {
-    display: flex; 
-    justify-content: center;
     border-radius: 10px;
     max-width: 100%;
     margin-bottom: 1.5rem;
